@@ -1,0 +1,61 @@
+>
+Anurag Kar12:39
+.git folder remove
+rm -rf .git
+git checklists:
+git init
+git branch -m main
+(master => main)
+git add .
+gitfolder/gitsubfolder
+Anurag Kar12:40
+cd gitsubfolder
+git add .
+different from
+cd ..
+git add .
+root -> git add .
+not necessary, can add anywhere -. but point to keep in mind
+git add requirements.txt
+Anurag Kar12:41
+git add a b c
+git remove
+vscode git extension => use it more better
+git, git lens, git pull request, git graph
+git commit -m "message"
+git push
+Anurag Kar12:42
+git push --upstream branch => default push branch
+then only git push will work Automatically.
+else
+particular branch push
+git push origin branch_name
+github => connect
+before push
+git remote add origin (url)
+Anurag Kar12:44
+Url => repo
+name does not matter
+local cloud names can be different
+git diff
+Anurag Kar12:45
+local
+Git setup => username, email id set karna padega
+github
+ssh key set karna padega
+clone => not using https: we will use ssh
+git@github...
+for ssh, public from system give to guthub
+ssh-keygen
+Anurag Kar12:46
+it generates RSA key pair => public, private
+cd .ssh
+all in home folter
+cd
+Automatically gets to home
+there cd cd .ssh
+cat id_somefilename.pub
+.pub means public
+cat filename
+Anurag Kar12:47
+then copy contennts to github => ssh new key
